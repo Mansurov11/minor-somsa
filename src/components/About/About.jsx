@@ -1,6 +1,7 @@
 import React from "react";
 import { TbFlameFilled } from "react-icons/tb";
 import "./About.css";
+import aboutImage from "../../../public/about_img.png"
 
 const About = () => {
   return (
@@ -28,7 +29,7 @@ const About = () => {
           </p>
             </div>
           <div className="about_hero2">
-            <img src="public/about_img.png" alt="" className="about_image"/>
+            <img src={aboutImage} alt="" className="about_image"/>
           </div>
         </div>
       </div>

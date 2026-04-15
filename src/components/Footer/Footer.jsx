@@ -8,6 +8,7 @@ import {
   FaYoutube,
 } from "react-icons/fa6";
 import { FiInstagram } from "react-icons/fi";
+import logo from "../../../public/logo.png"
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
           <div className="logo_wrapper">
             <a href="./" className="logo_link">
               <img
-                src="public/logo.png"
+                src={logo}
                 alt="Minor Somsa"
                 width={30}
                 className="logo_icon"

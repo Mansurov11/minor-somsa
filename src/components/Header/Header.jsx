@@ -2,6 +2,7 @@ import { GiFlame } from "react-icons/gi";
 import "./Header.css";
 import { PiFlameLight } from "react-icons/pi";
 import { TbFlameFilled } from "react-icons/tb";
+import logo from "../../../public/logo.png"
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
             <div className="logo_wrapper">
               <a href="./" className="logo_link">
                 <img
-                  src="public/logo.png"
+                  src={logo}
                   alt="Minor Somsa"
                   width={30}
                   className="logo_icon"
@@ -44,7 +45,7 @@ const Header = () => {
         <div className="opacity">
           <div className="container">
             <div className="header_wrapper">
-              <img src="public/logo.png" alt="" className="header_icon" />
+              <img src={logo} alt="" className="header_icon" />
               <h2 className="head_con-title">MINOR SOMSA</h2>
               <p className="head_con-subtitle">
                 <TbFlameFilled className="flame_blink" color="#ff0000" />
