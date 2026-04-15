@@ -190,6 +190,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .location_name {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 426px) {
   .locations_list {
     flex-direction: column;
