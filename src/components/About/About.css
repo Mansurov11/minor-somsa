@@ -89,6 +89,16 @@
     width: 450px;
   }
 }
+@media (max-width: 951px) {
+   .about_hero2 {
+    padding-left: 0 40px;
+  }
+
+    .about_image {
+    border: 2px solid #ff0000;
+    width: 90%;
+  }
+}
 
 @media (max-width: 768px) {
   .about_wrapper {

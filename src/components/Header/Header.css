@@ -217,6 +217,18 @@ header {
   }
 }
 
+@media (max-width: 651px) {
+   .logo_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar_wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 @media (max-width: 426px) {
   .nav_link {
     font-size: 12px;
