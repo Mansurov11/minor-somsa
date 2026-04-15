@@ -1,46 +1,52 @@
 import React, { useState } from "react";
 import "./Menu.css";
+import molGoshtSomsa from "../../../public/mol.jpg"
+import kokSomsa from "../../../public/kok.jpg"
+import kartoshkaliSomsa from "../../../public/kartoshka.jpg"
+import qoySomsa from "../../../public/qoy.jpg"
+import tovuqSomsa from "../../../public/tovuq.jpg"
+import sous from "../../../public/sous.png"
 
 const Menu = () => {
   const menuItems = [
     {
       id: 1,
-      image: "public/mol.jpg",
+      image: molGoshtSomsa,
       name: "Mol Go'shtli Somsa",
       category: "Go'sht",
       price: "14.000",
     },
     {
       id: 2,
-      image: "public/kok.jpg",
+      image: kokSomsa,
       name: "Ko'k Somsa",
       category: "Vegetarian",
       price: "8.000",
     },
     {
       id: 3,
-      image: "public/kartoshka.jpg",
+      image: kartoshkaliSomsa,
       name: "Kartoshkali Somsa",
       category: "Vegetarian",
       price: "7.000",
     },
     {
       id: 4,
-      image: "public/qoy.jpg",
+      image: qoySomsa,
       name: "Qo'y Go'shtli Somsa",
       category: "Go'sht",
       price: "11.000",
     },
     {
       id: 5,
-      image: "public/tovuq.jpg",
+      image: tovuqSomsa,
       name: "Tovuq Go'sht Somsa",
       category: "Go'sht",
       price: "9.000",
     },
     {
       id: 6,
-      image: "public/sous.png",
+      image: sous,
       name: "Tomatli Sous",
       category: "Sauce",
       price: "6.000",
