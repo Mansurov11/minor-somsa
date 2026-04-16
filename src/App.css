@@ -21,6 +21,8 @@
     #330000,
     #000000
   );
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   color: white;
   cursor: default;
